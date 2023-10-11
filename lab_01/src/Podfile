@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'lab01' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'DGCharts'
+
+  target 'lab01Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'lab01UITests' do
+    # Pods for testing
+  end
+
+end
