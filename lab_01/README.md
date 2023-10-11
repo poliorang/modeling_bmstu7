@@ -1,1 +1,1 @@
-![Интерфейс](lab_01/docs/tex/img/normal1.png)
+![Интерфейс](docs/tex/img/normal1.png)
