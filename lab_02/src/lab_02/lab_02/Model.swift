@@ -89,5 +89,4 @@ class Model {
             stabPoints[i] = ChartDataEntry(x: tStableArr[i], y: pArr[i])
         }
     }
-    
 }
