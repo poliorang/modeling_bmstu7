@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04641BF3CA719D030462C272B069C259 /* SSSF-Gamma-Beta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AE8F7218741D1E63C8076C00471675 /* SSSF-Gamma-Beta.swift */; };
+		056CFFB3CCDE71FE93C2C1AB2B6190A8 /* SwiftyStats-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE3A1739B995ACBB71A9F7D4E7D9450 /* SwiftyStats-dummy.m */; };
+		072BACE4720D5D88B02B8B1F0ED3592F /* Airy_Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8D15BD76E39F29B6D36B4FD75D6D0 /* Airy_Constants.swift */; };
+		079A17B7BB29242A978721DDE43C9FC1 /* ProbDist-Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23C1A9AA4F65F9000EB1890F6BD6AF /* ProbDist-Exponential.swift */; };
+		0A4EC9D81C4B0D61A77B6F372475D045 /* ProbDist-NoncentralT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E862F2F6A6116F0BAEE83252CB8DFC71 /* ProbDist-NoncentralT.swift */; };
+		0BE0331516D2855CB3FC93F93A86EAD6 /* SSUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB9FD44285C98DE4815EA3F02F165F /* SSUtils.swift */; };
+		0F2958EA83FDC52D807E9276AF4C4275 /* SSCrosstab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AED0F614FAF741E87C8B2A73B58749 /* SSCrosstab.swift */; };
+		0FFBE3547110FB89197B3C46633ED68A /* SSSF-MarcumQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D0ECD3E4987A6999ACEFC5AE4C377 /* SSSF-MarcumQ.swift */; };
+		112D6B78EB007A305446D41D381BB281 /* ProbDist-Pareto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31E0AE54A892E10E59A6C3F5D82FBF7 /* ProbDist-Pareto.swift */; };
+		1CCBAB0D0B8C784944DA6512242D5E64 /* SSDataFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4AEF61BE3063AB53C26563806835A4 /* SSDataFrame.swift */; };
+		1EB86A738CA9758B54D09E1B28553835 /* SSDataGroupSorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6F77935CE9703E03B148B4ADF18AEC /* SSDataGroupSorter.swift */; };
+		24147A86F790383EB711E1097DD209A1 /* ProbDist-vMises-Circular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA204D4E32A15A5D6AEFEBD4815B12A /* ProbDist-vMises-Circular.swift */; };
+		27452DF6EA0F09CEA864FC6DA6211ACB /* SSSpecialFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2295F3C798838F47B56AFCCF8546B42 /* SSSpecialFunctions.swift */; };
+		27B8583305C55ED6504FFBA96D37C74B /* Integrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EEE2F61BFD6FB2E58E949C04007973 /* Integrator.swift */; };
+		28DEB812B4D77495CAD36C71297BEE57 /* SSTukey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E05036FBC412360DA638FE622132D3 /* SSTukey.swift */; };
+		2DA1559A936C52C466F2D8C800FEC4CA /* SSHypothesisTesting-Autocorrelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F628C5924EE78F5655E7A2534E2FF2 /* SSHypothesisTesting-Autocorrelation.swift */; };
+		32AC506EC22D94E6945027E52093320C /* SSComplex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C56365A435885121902BB47EE917B /* SSComplex.swift */; };
+		33A3682BE40983750A248D51DF74DB7F /* ProbDist-StudentT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6DA6C44210D8E1222A7DC524FFC14 /* ProbDist-StudentT.swift */; };
+		376F2EDBB177CE9939C4277EFEC49813 /* SSSF-Incgam-Gil_Temme_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210E7F829FB6426E49F1668A4C69E339 /* SSSF-Incgam-Gil_Temme_.swift */; };
+		379ED6E36613463454A3ED44EF503A27 /* Polyeval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF18F0E67EAB6E3028E23FB8B1371B9 /* Polyeval.swift */; };
+		3A7CF3C187BC8AB45033923A5E27D544 /* SSHypothesisTesting-Variances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FBEC02B28A988B03C733DE210FE7F3 /* SSHypothesisTesting-Variances.swift */; };
+		3C87F4FC4E7293C501A3C6DA934E602D /* SSFrequencyTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671AD72608EB5D1A2FE9C38EB74571AF /* SSFrequencyTables.swift */; };
+		41A13F3EDCB9A79806BEF4315ECC83BE /* Alg_838.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EB7DB49A7A80D3BFCCB53913CC256 /* Alg_838.swift */; };
+		47E9924E982DA2D3234BC63302BB338E /* Namespaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A7322B2104542146BCC9C135E6B41 /* Namespaces.swift */; };
+		4846CF00E105A400CDB7C5BFE5EAAAC2 /* ProbDist-Gaussian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273DFC98B2569A7AE481910D08E760DC /* ProbDist-Gaussian.swift */; };
+		4A29A4B09CE433114E9B4CA9941C4276 /* SSHypothesisTesting-NPAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D73BC6F1061EF04C97C561C51C7BB /* SSHypothesisTesting-NPAR.swift */; };
+		4AD35985E42727BB4F3DC354122C3BC3 /* SSLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E067BDFBF88CCAEA31235950A4F47 /* SSLogging.swift */; };
+		4CFD84CDFD56E8F621B9AFA27722BFCB /* SSExamine-Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1539EF4BD4EDF3E0CD7548E6BBF15A3A /* SSExamine-Stats.swift */; };
+		4FEC25C503CE6A39685B9630B32C1EC0 /* CodableFloat80.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360EAE45C4074F3EE335AB246EAB1CB /* CodableFloat80.swift */; };
+		581DFD1D21E3DECE82618515D9F62E4F /* SSHypothesisTesting-Randomness.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91C015474A8E0E5ED08CB44B49FEF1 /* SSHypothesisTesting-Randomness.swift */; };
+		5A9EF7ECC8527A5656D1267221A469C7 /* SSExamine-Sn_Qn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63A472611DB87381237252C43CC7269 /* SSExamine-Sn_Qn.swift */; };
+		5E10AC07ADC1466B9714D9967F523013 /* Chebyshev.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBDECFC3C1D1846F75DECBE3664011A /* Chebyshev.swift */; };
+		5EFE8317DD98EE7E2547B324C4961142 /* ProbDist-Gamma.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB582B665D6EC1FD44A6EF216540B3 /* ProbDist-Gamma.swift */; };
+		62B7C975B1AE4D744B4636F3214E5D33 /* SSHypothesisTesting-Outliers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6251113EF8FD6994F6E40F47C2C663F0 /* SSHypothesisTesting-Outliers.swift */; };
+		65B7BEEBEEEF72D29559CC4B8C6CB2A1 /* SSSF-BesselJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EE7591F6C9428343226C8F2E8624F /* SSSF-BesselJ.swift */; };
+		6882638F6D7226119344628D701B7CC0 /* ProbDist-Beta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50BF3A3ECAA27590E04814B6A6B0BB /* ProbDist-Beta.swift */; };
+		6986B819C7B1C2F9AE2FF4031DFD3ED3 /* ProbDist-Triangular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEBE0767F0F66D40C8D8CC8E2A41AD6 /* ProbDist-Triangular.swift */; };
+		6AE99BDD94358AE3FE176A6B86636F80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7247E42B5386396E9C881887A74498F6 /* SSContFrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C6F488C06A68DE726B8CCDEEDB7195 /* SSContFrac.swift */; };
+		72C5409D1F483E5F871F63C188C58077 /* ProbDist-ChiSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296951200A9246ACBDEB35F73589E3F7 /* ProbDist-ChiSquare.swift */; };
+		771DDEC3124B70C7CD78692E9C43F048 /* ProbDist-LogNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F75D67777D82792D734EA74C91AED /* ProbDist-LogNormal.swift */; };
+		77B04ACA837BF86FF1BD2723A95AE951 /* HypergeometricPFQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED9D06DA3F79455EE0A1D2C292F7FD6 /* HypergeometricPFQ.swift */; };
+		7AB164082611E554AE0C111F87D0ACA2 /* SSSF-BesselI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE408E80621FBC7E55529BE47B0D541 /* SSSF-BesselI.swift */; };
+		7B602907CB0F83AAFB5AEF5D7F7FD05C /* FP-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13404F4CAC06778B8DB7B3E1EE434AFD /* FP-Extension.swift */; };
+		7E47AFF85FD7B2C462E547D85C8577A0 /* ProbDist-Erlang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C630EB6D456622A71C8FFFA0BD992F8 /* ProbDist-Erlang.swift */; };
+		82F678C8A90C69AAC8D50470CB8DFCFA /* ProbDist-Laplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3176074AA4AA8D7BACA62A1A161E6D /* ProbDist-Laplace.swift */; };
+		83CFCF02E2DDFAB861C915F8B38495BD /* ProbDist-Wald_InverseNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72FCAFD14D73765FE66DB0C7924B0B3 /* ProbDist-Wald_InverseNormal.swift */; };
+		883DE1C194447AAA901FDE4D71CA8E10 /* Pods-lab_03-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D916E720054454AF2B5A136C1022DBA /* Pods-lab_03-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8842BBD36D0493EFAC5E8107EA015FA5 /* String-Extension-Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9C13FC5698744ADDFEAB9AEB89832 /* String-Extension-Hash.swift */; };
+		8B3237AE1CFEA228F0A0694117DEEF15 /* SSComplexMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CE3FEEE37CDFE6B6CB514EEE8D7E3F /* SSComplexMath.swift */; };
+		8C7B5815BD9571506FF7AE3FD6C89C5C /* ProbDist-Logistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0E14F74251CDCCAEC734206EFA4FEC /* ProbDist-Logistic.swift */; };
+		8E304C9799E48E3380FCD8F228CE2500 /* ProbDist-Uniform.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5B92170165D61F1C24DAC6D589083C /* ProbDist-Uniform.swift */; };
+		9768DBB579015A60BAE89AC6F6179EDB /* Array-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE50761713A5D0957AFAF20937AFC81 /* Array-Extension.swift */; };
+		9BB470095B53E9333DAC0AD2D6BADF74 /* SSProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1693E6A2E611051BC85B2C387D7B8E /* SSProtocols.swift */; };
+		A5E8BA2A3EA2789DE333DAA24EED8020 /* SSSFBetaRegCF.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF779A2D752ECB4C9418B3D512F494E /* SSSFBetaRegCF.swift */; };
+		A82AD582A73A7B7569D6381299DEB3E3 /* SSSFGammaQCF.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34692A7427F4A99F6CFE5C240FE9DAA /* SSSFGammaQCF.swift */; };
+		A9643AC02B5C377C2C03776C24071E03 /* ProbDist-FRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F122B163CB30C70BBB3405FBB6373 /* ProbDist-FRatio.swift */; };
+		AA0C909EEB11A5B7D293DD0371F7000B /* SSSimard-KSProb.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE501F7F7F948AC6CF83DD12AF77D64 /* SSSimard-KSProb.swift */; };
+		AA4B48D14284E4E21D80A1ECCEA995A0 /* SSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5871B74B091D6AB0448FF7D36A119D14 /* SSConstants.swift */; };
+		AA8A13C901AF7E4C0F4A63ADF6D8095F /* SSMath-GenericFP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BB2B59D5E56BACA99AF472589EB1DA /* SSMath-GenericFP.swift */; };
+		AAA621213C6E572558D4DF281658562D /* Hypergeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E51218F932CCEAB4CCDA6FC36938EDC /* Hypergeo.swift */; };
+		AC4AA87FA68A064C0B2DEC880AEAA088 /* SwiftyStats-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C861CE30926498C7D6C39F75418E269A /* SwiftyStats-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC9C16C85B9B0529AAF04B6B36DFCB9A /* ProbDist-Binomial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA2A2A8B1563DC1C849350DD4412AE /* ProbDist-Binomial.swift */; };
+		B1EB531FAD200BEAF87D3A69C3883695 /* ProbDist-ExtremValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802180F74EC9A3465C8B79EA7227C7C9 /* ProbDist-ExtremValue.swift */; };
+		B23EE82B423113C5C2F3224632458B7B /* ProbDist-Cauchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AFDFD1123E2055AA7BFB525799089B /* ProbDist-Cauchy.swift */; };
+		B797E9AA92BFAC97258A252237DDFDF4 /* SSHypothesisTesting-TTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107E5B460C9E7E900AC88AE754964C9D /* SSHypothesisTesting-TTests.swift */; };
+		B8D604B8C2F46687E70A016EE0A6AB1F /* r_derived_macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87579EC1BBAA420BD76C2C562F160D0B /* r_derived_macros.swift */; };
+		BCF42DA3F918315F097614B605ED340C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C44E530E5D8C8B05806DB383095B4AC2 /* ProbDist-Poisson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3189F98E835AA270603F050DE59468 /* ProbDist-Poisson.swift */; };
+		D45C6AF277E9819E9CBCB5E9A4E9993C /* SSDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87344554D9080317621BF60C66F1805 /* SSDeprecated.swift */; };
+		DAA95217B2D51778048B1E025358BEE8 /* Airy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A07536983AE2BA23BB3EDA2D8E76F8 /* Airy.swift */; };
+		DF86D52E32DE7A1686E0C06AE77BE2E5 /* SSExamine-FileManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407079B10E9E287115EC3C96EEA3E57 /* SSExamine-FileManagement.swift */; };
+		E78C62E65BF4145F16B997949F9949F4 /* SSSwiftyStatsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60064CF2257B10728451FE80CFB665 /* SSSwiftyStatsError.swift */; };
+		E83355277373CB2CD0A2D66D33DCD2FF /* Pods-lab_03-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143042F62801F1A9CBF6BC99DF03657 /* Pods-lab_03-dummy.m */; };
+		EAE309906FDC359C608EDC345AC5666D /* SSExamine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE69D39B24607F28FE5E9C077AF34CD /* SSExamine.swift */; };
+		ED16F64D2FC64C96F56FD07ABFA1C541 /* SwiftyStats-EnumsStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9405878E9076072AE9ABF537F51BB250 /* SwiftyStats-EnumsStructs.swift */; };
+		ED5E9BC4B2653B9320DD14512B4AC7C9 /* SSSHermiteH.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325EBC117CAFA8457A2270D35D9094B /* SSSHermiteH.swift */; };
+		F1076731917E836524B38F2C517123F3 /* ProbDist-RayleighDist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C280C92F97A4BA2D9A4809E9972B8 /* ProbDist-RayleighDist.swift */; };
+		F729C1F3859E09671693034C28460B1F /* ProbDist-Weibull.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E4DF84FB4C4F3C659409C124BC1BB /* ProbDist-Weibull.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE16B1DD99415D3F04D1D6B38FB1F2DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CE36328AFA9F66F769E28DCDFF4B81E;
+			remoteInfo = SwiftyStats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0360EAE45C4074F3EE335AB246EAB1CB /* CodableFloat80.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableFloat80.swift; path = SwiftyStats/CommonSource/Shared/Extensions/CodableFloat80.swift; sourceTree = "<group>"; };
+		09CE3FEEE37CDFE6B6CB514EEE8D7E3F /* SSComplexMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSComplexMath.swift; path = SwiftyStats/CommonSource/Shared/Math/SSComplexMath.swift; sourceTree = "<group>"; };
+		0E037C072CB33F50F4C2D7BF99E3030F /* Pods-lab_03-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lab_03-frameworks.sh"; sourceTree = "<group>"; };
+		0E51218F932CCEAB4CCDA6FC36938EDC /* Hypergeo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hypergeo.swift; path = SwiftyStats/CommonSource/SpecialFunctions/Hypergeo/Hypergeo.swift; sourceTree = "<group>"; };
+		107E5B460C9E7E900AC88AE754964C9D /* SSHypothesisTesting-TTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSHypothesisTesting-TTests.swift"; path = "SwiftyStats/CommonSource/HypothesisTesting/SSHypothesisTesting-TTests.swift"; sourceTree = "<group>"; };
+		10AFDFD1123E2055AA7BFB525799089B /* ProbDist-Cauchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Cauchy.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Cauchy.swift"; sourceTree = "<group>"; };
+		13404F4CAC06778B8DB7B3E1EE434AFD /* FP-Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FP-Extension.swift"; path = "SwiftyStats/CommonSource/Shared/Extensions/FP-Extension.swift"; sourceTree = "<group>"; };
+		1539EF4BD4EDF3E0CD7548E6BBF15A3A /* SSExamine-Stats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSExamine-Stats.swift"; path = "SwiftyStats/CommonSource/Examine/SSExamine-Stats.swift"; sourceTree = "<group>"; };
+		1B4AEF61BE3063AB53C26563806835A4 /* SSDataFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSDataFrame.swift; path = SwiftyStats/CommonSource/DataFrame/SSDataFrame.swift; sourceTree = "<group>"; };
+		1F2C280C92F97A4BA2D9A4809E9972B8 /* ProbDist-RayleighDist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-RayleighDist.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-RayleighDist.swift"; sourceTree = "<group>"; };
+		1F30D9CE381F9D2603E475933E1CCBC6 /* Pods-lab_03.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lab_03.modulemap"; sourceTree = "<group>"; };
+		210E7F829FB6426E49F1668A4C69E339 /* SSSF-Incgam-Gil_Temme_.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSSF-Incgam-Gil_Temme_.swift"; path = "SwiftyStats/CommonSource/SpecialFunctions/MarcumQ/SSSF-Incgam-Gil_Temme_.swift"; sourceTree = "<group>"; };
+		2143042F62801F1A9CBF6BC99DF03657 /* Pods-lab_03-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lab_03-dummy.m"; sourceTree = "<group>"; };
+		273DFC98B2569A7AE481910D08E760DC /* ProbDist-Gaussian.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Gaussian.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Gaussian.swift"; sourceTree = "<group>"; };
+		296951200A9246ACBDEB35F73589E3F7 /* ProbDist-ChiSquare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-ChiSquare.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-ChiSquare.swift"; sourceTree = "<group>"; };
+		29F1D822B79D5189A6BCE6CECBD0A898 /* SwiftyStats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyStats.release.xcconfig; sourceTree = "<group>"; };
+		2A23C1A9AA4F65F9000EB1890F6BD6AF /* ProbDist-Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Exponential.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Exponential.swift"; sourceTree = "<group>"; };
+		2B50BF3A3ECAA27590E04814B6A6B0BB /* ProbDist-Beta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Beta.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Beta.swift"; sourceTree = "<group>"; };
+		2C8D73BC6F1061EF04C97C561C51C7BB /* SSHypothesisTesting-NPAR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSHypothesisTesting-NPAR.swift"; path = "SwiftyStats/CommonSource/HypothesisTesting/SSHypothesisTesting-NPAR.swift"; sourceTree = "<group>"; };
+		3AA204D4E32A15A5D6AEFEBD4815B12A /* ProbDist-vMises-Circular.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-vMises-Circular.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-vMises-Circular.swift"; sourceTree = "<group>"; };
+		3D1693E6A2E611051BC85B2C387D7B8E /* SSProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSProtocols.swift; path = SwiftyStats/CommonSource/Shared/EnumsStructsProtConst/SSProtocols.swift; sourceTree = "<group>"; };
+		40B6DA6C44210D8E1222A7DC524FFC14 /* ProbDist-StudentT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-StudentT.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-StudentT.swift"; sourceTree = "<group>"; };
+		4120D9BD3B9421F9758DBCCB3A8249C7 /* SwiftyStats-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyStats-prefix.pch"; sourceTree = "<group>"; };
+		46F628C5924EE78F5655E7A2534E2FF2 /* SSHypothesisTesting-Autocorrelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSHypothesisTesting-Autocorrelation.swift"; path = "SwiftyStats/CommonSource/HypothesisTesting/SSHypothesisTesting-Autocorrelation.swift"; sourceTree = "<group>"; };
+		4A3189F98E835AA270603F050DE59468 /* ProbDist-Poisson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Poisson.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Poisson.swift"; sourceTree = "<group>"; };
+		4AE170E305ED9B533F6C989C5F293B16 /* SwiftyStats-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyStats-Info.plist"; sourceTree = "<group>"; };
+		4BB9C13FC5698744ADDFEAB9AEB89832 /* String-Extension-Hash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String-Extension-Hash.swift"; path = "SwiftyStats/CommonSource/Shared/Extensions/String-Extension-Hash.swift"; sourceTree = "<group>"; };
+		4C90ABA98189E52119E03D928DFE8CC6 /* Pods-lab_03.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lab_03.release.xcconfig"; sourceTree = "<group>"; };
+		50A07536983AE2BA23BB3EDA2D8E76F8 /* Airy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Airy.swift; path = SwiftyStats/CommonSource/SpecialFunctions/Airy/Airy.swift; sourceTree = "<group>"; };
+		5871B74B091D6AB0448FF7D36A119D14 /* SSConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSConstants.swift; path = SwiftyStats/CommonSource/Shared/EnumsStructsProtConst/SSConstants.swift; sourceTree = "<group>"; };
+		5A0E14F74251CDCCAEC734206EFA4FEC /* ProbDist-Logistic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Logistic.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Logistic.swift"; sourceTree = "<group>"; };
+		5ED9D06DA3F79455EE0A1D2C292F7FD6 /* HypergeometricPFQ.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HypergeometricPFQ.swift; path = SwiftyStats/CommonSource/SpecialFunctions/Hypergeo/HypergeometricPFQ.swift; sourceTree = "<group>"; };
+		5F3176074AA4AA8D7BACA62A1A161E6D /* ProbDist-Laplace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Laplace.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Laplace.swift"; sourceTree = "<group>"; };
+		6251113EF8FD6994F6E40F47C2C663F0 /* SSHypothesisTesting-Outliers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSHypothesisTesting-Outliers.swift"; path = "SwiftyStats/CommonSource/HypothesisTesting/SSHypothesisTesting-Outliers.swift"; sourceTree = "<group>"; };
+		671AD72608EB5D1A2FE9C38EB74571AF /* SSFrequencyTables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSFrequencyTables.swift; path = SwiftyStats/CommonSource/Examine/SSFrequencyTables.swift; sourceTree = "<group>"; };
+		6CE50761713A5D0957AFAF20937AFC81 /* Array-Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array-Extension.swift"; path = "SwiftyStats/CommonSource/Shared/Extensions/Array-Extension.swift"; sourceTree = "<group>"; };
+		6DE408E80621FBC7E55529BE47B0D541 /* SSSF-BesselI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSSF-BesselI.swift"; path = "SwiftyStats/CommonSource/SpecialFunctions/Bessel/SSSF-BesselI.swift"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7407079B10E9E287115EC3C96EEA3E57 /* SSExamine-FileManagement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSExamine-FileManagement.swift"; path = "SwiftyStats/CommonSource/Examine/SSExamine-FileManagement.swift"; sourceTree = "<group>"; };
+		77FBEC02B28A988B03C733DE210FE7F3 /* SSHypothesisTesting-Variances.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSHypothesisTesting-Variances.swift"; path = "SwiftyStats/CommonSource/HypothesisTesting/SSHypothesisTesting-Variances.swift"; sourceTree = "<group>"; };
+		79EEE2F61BFD6FB2E58E949C04007973 /* Integrator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Integrator.swift; path = SwiftyStats/CommonSource/Shared/Math/Integrator.swift; sourceTree = "<group>"; };
+		7BE8D15BD76E39F29B6D36B4FD75D6D0 /* Airy_Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Airy_Constants.swift; path = SwiftyStats/CommonSource/SpecialFunctions/Airy/Airy_Constants.swift; sourceTree = "<group>"; };
+		7BEB9FD44285C98DE4815EA3F02F165F /* SSUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSUtils.swift; path = SwiftyStats/CommonSource/Shared/Math/SSUtils.swift; sourceTree = "<group>"; };
+		7C630EB6D456622A71C8FFFA0BD992F8 /* ProbDist-Erlang.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Erlang.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Erlang.swift"; sourceTree = "<group>"; };
+		7D916E720054454AF2B5A136C1022DBA /* Pods-lab_03-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lab_03-umbrella.h"; sourceTree = "<group>"; };
+		7EAA2A2A8B1563DC1C849350DD4412AE /* ProbDist-Binomial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Binomial.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Binomial.swift"; sourceTree = "<group>"; };
+		7EF18F0E67EAB6E3028E23FB8B1371B9 /* Polyeval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polyeval.swift; path = SwiftyStats/CommonSource/SpecialFunctions/Bessel/Polyeval.swift; sourceTree = "<group>"; };
+		802180F74EC9A3465C8B79EA7227C7C9 /* ProbDist-ExtremValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-ExtremValue.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-ExtremValue.swift"; sourceTree = "<group>"; };
+		810A7322B2104542146BCC9C135E6B41 /* Namespaces.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Namespaces.swift; path = SwiftyStats/CommonSource/Namespaces.swift; sourceTree = "<group>"; };
+		86A0800EA2646215D27708584BD7C4AB /* SwiftyStats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyStats.debug.xcconfig; sourceTree = "<group>"; };
+		870DBC17C104D4CB82296127CFF5BD5B /* Pods-lab_03.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lab_03.debug.xcconfig"; sourceTree = "<group>"; };
+		87579EC1BBAA420BD76C2C562F160D0B /* r_derived_macros.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = r_derived_macros.swift; path = SwiftyStats/CommonSource/Shared/StatUtils/r_derived_macros.swift; sourceTree = "<group>"; };
+		88E05036FBC412360DA638FE622132D3 /* SSTukey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSTukey.swift; path = SwiftyStats/CommonSource/Shared/StatUtils/SSTukey.swift; sourceTree = "<group>"; };
+		897F122B163CB30C70BBB3405FBB6373 /* ProbDist-FRatio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-FRatio.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-FRatio.swift"; sourceTree = "<group>"; };
+		8FEBE0767F0F66D40C8D8CC8E2A41AD6 /* ProbDist-Triangular.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Triangular.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Triangular.swift"; sourceTree = "<group>"; };
+		9405878E9076072AE9ABF537F51BB250 /* SwiftyStats-EnumsStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyStats-EnumsStructs.swift"; path = "SwiftyStats/CommonSource/Shared/EnumsStructsProtConst/SwiftyStats-EnumsStructs.swift"; sourceTree = "<group>"; };
+		98AE8F7218741D1E63C8076C00471675 /* SSSF-Gamma-Beta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSSF-Gamma-Beta.swift"; path = "SwiftyStats/CommonSource/SpecialFunctions/Gamma_Beta/SSSF-Gamma-Beta.swift"; sourceTree = "<group>"; };
+		9A60064CF2257B10728451FE80CFB665 /* SSSwiftyStatsError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSSwiftyStatsError.swift; path = SwiftyStats/CommonSource/Shared/StatUtils/SSSwiftyStatsError.swift; sourceTree = "<group>"; };
+		9BBDECFC3C1D1846F75DECBE3664011A /* Chebyshev.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Chebyshev.swift; path = SwiftyStats/CommonSource/SpecialFunctions/Bessel/Chebyshev.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D05C76B6E119A5C5EC8AF73C372C0B /* Pods-lab_03-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lab_03-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2AED0F614FAF741E87C8B2A73B58749 /* SSCrosstab.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSCrosstab.swift; path = SwiftyStats/CommonSource/Crosstab/SSCrosstab.swift; sourceTree = "<group>"; };
+		A2BB2B59D5E56BACA99AF472589EB1DA /* SSMath-GenericFP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSMath-GenericFP.swift"; path = "SwiftyStats/CommonSource/Shared/Math/SSMath-GenericFP.swift"; sourceTree = "<group>"; };
+		A31E0AE54A892E10E59A6C3F5D82FBF7 /* ProbDist-Pareto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Pareto.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Pareto.swift"; sourceTree = "<group>"; };
+		A34692A7427F4A99F6CFE5C240FE9DAA /* SSSFGammaQCF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSSFGammaQCF.swift; path = SwiftyStats/CommonSource/SpecialFunctions/Gamma_Beta/SSSFGammaQCF.swift; sourceTree = "<group>"; };
+		A72FCAFD14D73765FE66DB0C7924B0B3 /* ProbDist-Wald_InverseNormal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Wald_InverseNormal.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Wald_InverseNormal.swift"; sourceTree = "<group>"; };
+		A95E067BDFBF88CCAEA31235950A4F47 /* SSLogging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLogging.swift; path = SwiftyStats/CommonSource/Shared/SSLogging.swift; sourceTree = "<group>"; };
+		A9C6F488C06A68DE726B8CCDEEDB7195 /* SSContFrac.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSContFrac.swift; path = SwiftyStats/CommonSource/SpecialFunctions/ContFrac/SSContFrac.swift; sourceTree = "<group>"; };
+		ADF779A2D752ECB4C9418B3D512F494E /* SSSFBetaRegCF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSSFBetaRegCF.swift; path = SwiftyStats/CommonSource/SpecialFunctions/Gamma_Beta/SSSFBetaRegCF.swift; sourceTree = "<group>"; };
+		B57EE7591F6C9428343226C8F2E8624F /* SSSF-BesselJ.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSSF-BesselJ.swift"; path = "SwiftyStats/CommonSource/SpecialFunctions/Bessel/SSSF-BesselJ.swift"; sourceTree = "<group>"; };
+		B57F75D67777D82792D734EA74C91AED /* ProbDist-LogNormal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-LogNormal.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-LogNormal.swift"; sourceTree = "<group>"; };
+		BB5E4DF84FB4C4F3C659409C124BC1BB /* ProbDist-Weibull.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Weibull.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Weibull.swift"; sourceTree = "<group>"; };
+		BE5B92170165D61F1C24DAC6D589083C /* ProbDist-Uniform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Uniform.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Uniform.swift"; sourceTree = "<group>"; };
+		BF2EB7DB49A7A80D3BFCCB53913CC256 /* Alg_838.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alg_838.swift; path = SwiftyStats/CommonSource/SpecialFunctions/Airy/Alg_838.swift; sourceTree = "<group>"; };
+		C2CB582B665D6EC1FD44A6EF216540B3 /* ProbDist-Gamma.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-Gamma.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-Gamma.swift"; sourceTree = "<group>"; };
+		C325EBC117CAFA8457A2270D35D9094B /* SSSHermiteH.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSSHermiteH.swift; path = SwiftyStats/CommonSource/SpecialFunctions/HermiteH/SSSHermiteH.swift; sourceTree = "<group>"; };
+		C63A472611DB87381237252C43CC7269 /* SSExamine-Sn_Qn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSExamine-Sn_Qn.swift"; path = "SwiftyStats/CommonSource/Examine/SSExamine-Sn_Qn.swift"; sourceTree = "<group>"; };
+		C861CE30926498C7D6C39F75418E269A /* SwiftyStats-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyStats-umbrella.h"; sourceTree = "<group>"; };
+		C87344554D9080317621BF60C66F1805 /* SSDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSDeprecated.swift; path = SwiftyStats/CommonSource/DEPRECATIONS/SSDeprecated.swift; sourceTree = "<group>"; };
+		D2295F3C798838F47B56AFCCF8546B42 /* SSSpecialFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSSpecialFunctions.swift; path = SwiftyStats/CommonSource/SpecialFunctions/SSSpecialFunctions.swift; sourceTree = "<group>"; };
+		DA6F77935CE9703E03B148B4ADF18AEC /* SSDataGroupSorter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSDataGroupSorter.swift; path = SwiftyStats/CommonSource/Shared/StatUtils/SSDataGroupSorter.swift; sourceTree = "<group>"; };
+		DC7D0ECD3E4987A6999ACEFC5AE4C377 /* SSSF-MarcumQ.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSSF-MarcumQ.swift"; path = "SwiftyStats/CommonSource/SpecialFunctions/MarcumQ/SSSF-MarcumQ.swift"; sourceTree = "<group>"; };
+		DDE69D39B24607F28FE5E9C077AF34CD /* SSExamine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSExamine.swift; path = SwiftyStats/CommonSource/Examine/SSExamine.swift; sourceTree = "<group>"; };
+		E1682259939BD682E869A1AD067868F6 /* Pods-lab_03-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lab_03-Info.plist"; sourceTree = "<group>"; };
+		E17B01287CEDA22AA5FC3E6617C5B2A1 /* Pods-lab_03 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-lab_03"; path = Pods_lab_03.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3617D5FF6282883504D08E8A80ACEF2 /* SwiftyStats.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyStats.modulemap; sourceTree = "<group>"; };
+		E862F2F6A6116F0BAEE83252CB8DFC71 /* ProbDist-NoncentralT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProbDist-NoncentralT.swift"; path = "SwiftyStats/CommonSource/ProbDist/ProbDist-NoncentralT.swift"; sourceTree = "<group>"; };
+		E993665535EBC5846D4405926127E393 /* SwiftyStats */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyStats; path = SwiftyStats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE501F7F7F948AC6CF83DD12AF77D64 /* SSSimard-KSProb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSSimard-KSProb.swift"; path = "SwiftyStats/CommonSource/Shared/StatUtils/SSSimard-KSProb.swift"; sourceTree = "<group>"; };
+		F8B0435F319D0A22416D03B4159DCCF9 /* Pods-lab_03-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lab_03-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FAE3A1739B995ACBB71A9F7D4E7D9450 /* SwiftyStats-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyStats-dummy.m"; sourceTree = "<group>"; };
+		FF3C56365A435885121902BB47EE917B /* SSComplex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSComplex.swift; path = SwiftyStats/CommonSource/Shared/Math/SSComplex.swift; sourceTree = "<group>"; };
+		FF91C015474A8E0E5ED08CB44B49FEF1 /* SSHypothesisTesting-Randomness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SSHypothesisTesting-Randomness.swift"; path = "SwiftyStats/CommonSource/HypothesisTesting/SSHypothesisTesting-Randomness.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C68CFDEDEDAC19FE088E8AAE29AB2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE99BDD94358AE3FE176A6B86636F80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB5F7B3B2CE9711F129BFC02A7D0ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF42DA3F918315F097614B605ED340C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066032A970DD0751A58508849E3557C8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99638CF77523A3E782BE20AE61C893BE /* Pods-lab_03 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2AA25C228ADD645E9DE24BF5FFF9938F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				538EC441647FCCF7E4C0B6D1F76D5DCF /* SwiftyStats */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		538EC441647FCCF7E4C0B6D1F76D5DCF /* SwiftyStats */ = {
+			isa = PBXGroup;
+			children = (
+				50A07536983AE2BA23BB3EDA2D8E76F8 /* Airy.swift */,
+				7BE8D15BD76E39F29B6D36B4FD75D6D0 /* Airy_Constants.swift */,
+				BF2EB7DB49A7A80D3BFCCB53913CC256 /* Alg_838.swift */,
+				6CE50761713A5D0957AFAF20937AFC81 /* Array-Extension.swift */,
+				9BBDECFC3C1D1846F75DECBE3664011A /* Chebyshev.swift */,
+				0360EAE45C4074F3EE335AB246EAB1CB /* CodableFloat80.swift */,
+				13404F4CAC06778B8DB7B3E1EE434AFD /* FP-Extension.swift */,
+				0E51218F932CCEAB4CCDA6FC36938EDC /* Hypergeo.swift */,
+				5ED9D06DA3F79455EE0A1D2C292F7FD6 /* HypergeometricPFQ.swift */,
+				79EEE2F61BFD6FB2E58E949C04007973 /* Integrator.swift */,
+				810A7322B2104542146BCC9C135E6B41 /* Namespaces.swift */,
+				7EF18F0E67EAB6E3028E23FB8B1371B9 /* Polyeval.swift */,
+				2B50BF3A3ECAA27590E04814B6A6B0BB /* ProbDist-Beta.swift */,
+				7EAA2A2A8B1563DC1C849350DD4412AE /* ProbDist-Binomial.swift */,
+				10AFDFD1123E2055AA7BFB525799089B /* ProbDist-Cauchy.swift */,
+				296951200A9246ACBDEB35F73589E3F7 /* ProbDist-ChiSquare.swift */,
+				7C630EB6D456622A71C8FFFA0BD992F8 /* ProbDist-Erlang.swift */,
+				2A23C1A9AA4F65F9000EB1890F6BD6AF /* ProbDist-Exponential.swift */,
+				802180F74EC9A3465C8B79EA7227C7C9 /* ProbDist-ExtremValue.swift */,
+				897F122B163CB30C70BBB3405FBB6373 /* ProbDist-FRatio.swift */,
+				C2CB582B665D6EC1FD44A6EF216540B3 /* ProbDist-Gamma.swift */,
+				273DFC98B2569A7AE481910D08E760DC /* ProbDist-Gaussian.swift */,
+				5F3176074AA4AA8D7BACA62A1A161E6D /* ProbDist-Laplace.swift */,
+				5A0E14F74251CDCCAEC734206EFA4FEC /* ProbDist-Logistic.swift */,
+				B57F75D67777D82792D734EA74C91AED /* ProbDist-LogNormal.swift */,
+				E862F2F6A6116F0BAEE83252CB8DFC71 /* ProbDist-NoncentralT.swift */,
+				A31E0AE54A892E10E59A6C3F5D82FBF7 /* ProbDist-Pareto.swift */,
+				4A3189F98E835AA270603F050DE59468 /* ProbDist-Poisson.swift */,
+				1F2C280C92F97A4BA2D9A4809E9972B8 /* ProbDist-RayleighDist.swift */,
+				40B6DA6C44210D8E1222A7DC524FFC14 /* ProbDist-StudentT.swift */,
+				8FEBE0767F0F66D40C8D8CC8E2A41AD6 /* ProbDist-Triangular.swift */,
+				BE5B92170165D61F1C24DAC6D589083C /* ProbDist-Uniform.swift */,
+				3AA204D4E32A15A5D6AEFEBD4815B12A /* ProbDist-vMises-Circular.swift */,
+				A72FCAFD14D73765FE66DB0C7924B0B3 /* ProbDist-Wald_InverseNormal.swift */,
+				BB5E4DF84FB4C4F3C659409C124BC1BB /* ProbDist-Weibull.swift */,
+				87579EC1BBAA420BD76C2C562F160D0B /* r_derived_macros.swift */,
+				FF3C56365A435885121902BB47EE917B /* SSComplex.swift */,
+				09CE3FEEE37CDFE6B6CB514EEE8D7E3F /* SSComplexMath.swift */,
+				5871B74B091D6AB0448FF7D36A119D14 /* SSConstants.swift */,
+				A9C6F488C06A68DE726B8CCDEEDB7195 /* SSContFrac.swift */,
+				A2AED0F614FAF741E87C8B2A73B58749 /* SSCrosstab.swift */,
+				1B4AEF61BE3063AB53C26563806835A4 /* SSDataFrame.swift */,
+				DA6F77935CE9703E03B148B4ADF18AEC /* SSDataGroupSorter.swift */,
+				C87344554D9080317621BF60C66F1805 /* SSDeprecated.swift */,
+				DDE69D39B24607F28FE5E9C077AF34CD /* SSExamine.swift */,
+				7407079B10E9E287115EC3C96EEA3E57 /* SSExamine-FileManagement.swift */,
+				C63A472611DB87381237252C43CC7269 /* SSExamine-Sn_Qn.swift */,
+				1539EF4BD4EDF3E0CD7548E6BBF15A3A /* SSExamine-Stats.swift */,
+				671AD72608EB5D1A2FE9C38EB74571AF /* SSFrequencyTables.swift */,
+				46F628C5924EE78F5655E7A2534E2FF2 /* SSHypothesisTesting-Autocorrelation.swift */,
+				2C8D73BC6F1061EF04C97C561C51C7BB /* SSHypothesisTesting-NPAR.swift */,
+				6251113EF8FD6994F6E40F47C2C663F0 /* SSHypothesisTesting-Outliers.swift */,
+				FF91C015474A8E0E5ED08CB44B49FEF1 /* SSHypothesisTesting-Randomness.swift */,
+				107E5B460C9E7E900AC88AE754964C9D /* SSHypothesisTesting-TTests.swift */,
+				77FBEC02B28A988B03C733DE210FE7F3 /* SSHypothesisTesting-Variances.swift */,
+				A95E067BDFBF88CCAEA31235950A4F47 /* SSLogging.swift */,
+				A2BB2B59D5E56BACA99AF472589EB1DA /* SSMath-GenericFP.swift */,
+				3D1693E6A2E611051BC85B2C387D7B8E /* SSProtocols.swift */,
+				6DE408E80621FBC7E55529BE47B0D541 /* SSSF-BesselI.swift */,
+				B57EE7591F6C9428343226C8F2E8624F /* SSSF-BesselJ.swift */,
+				98AE8F7218741D1E63C8076C00471675 /* SSSF-Gamma-Beta.swift */,
+				210E7F829FB6426E49F1668A4C69E339 /* SSSF-Incgam-Gil_Temme_.swift */,
+				DC7D0ECD3E4987A6999ACEFC5AE4C377 /* SSSF-MarcumQ.swift */,
+				ADF779A2D752ECB4C9418B3D512F494E /* SSSFBetaRegCF.swift */,
+				A34692A7427F4A99F6CFE5C240FE9DAA /* SSSFGammaQCF.swift */,
+				C325EBC117CAFA8457A2270D35D9094B /* SSSHermiteH.swift */,
+				ECE501F7F7F948AC6CF83DD12AF77D64 /* SSSimard-KSProb.swift */,
+				D2295F3C798838F47B56AFCCF8546B42 /* SSSpecialFunctions.swift */,
+				9A60064CF2257B10728451FE80CFB665 /* SSSwiftyStatsError.swift */,
+				88E05036FBC412360DA638FE622132D3 /* SSTukey.swift */,
+				7BEB9FD44285C98DE4815EA3F02F165F /* SSUtils.swift */,
+				4BB9C13FC5698744ADDFEAB9AEB89832 /* String-Extension-Hash.swift */,
+				9405878E9076072AE9ABF537F51BB250 /* SwiftyStats-EnumsStructs.swift */,
+				5CBE34C91AACBB867E7A8CC2C5D57410 /* Support Files */,
+			);
+			name = SwiftyStats;
+			path = SwiftyStats;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CBE34C91AACBB867E7A8CC2C5D57410 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3617D5FF6282883504D08E8A80ACEF2 /* SwiftyStats.modulemap */,
+				FAE3A1739B995ACBB71A9F7D4E7D9450 /* SwiftyStats-dummy.m */,
+				4AE170E305ED9B533F6C989C5F293B16 /* SwiftyStats-Info.plist */,
+				4120D9BD3B9421F9758DBCCB3A8249C7 /* SwiftyStats-prefix.pch */,
+				C861CE30926498C7D6C39F75418E269A /* SwiftyStats-umbrella.h */,
+				86A0800EA2646215D27708584BD7C4AB /* SwiftyStats.debug.xcconfig */,
+				29F1D822B79D5189A6BCE6CECBD0A898 /* SwiftyStats.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyStats";
+			sourceTree = "<group>";
+		};
+		99638CF77523A3E782BE20AE61C893BE /* Pods-lab_03 */ = {
+			isa = PBXGroup;
+			children = (
+				1F30D9CE381F9D2603E475933E1CCBC6 /* Pods-lab_03.modulemap */,
+				F8B0435F319D0A22416D03B4159DCCF9 /* Pods-lab_03-acknowledgements.markdown */,
+				A0D05C76B6E119A5C5EC8AF73C372C0B /* Pods-lab_03-acknowledgements.plist */,
+				2143042F62801F1A9CBF6BC99DF03657 /* Pods-lab_03-dummy.m */,
+				0E037C072CB33F50F4C2D7BF99E3030F /* Pods-lab_03-frameworks.sh */,
+				E1682259939BD682E869A1AD067868F6 /* Pods-lab_03-Info.plist */,
+				7D916E720054454AF2B5A136C1022DBA /* Pods-lab_03-umbrella.h */,
+				870DBC17C104D4CB82296127CFF5BD5B /* Pods-lab_03.debug.xcconfig */,
+				4C90ABA98189E52119E03D928DFE8CC6 /* Pods-lab_03.release.xcconfig */,
+			);
+			name = "Pods-lab_03";
+			path = "Target Support Files/Pods-lab_03";
+			sourceTree = "<group>";
+		};
+		A2AE8C75421AEFD507A93889C5BC4641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E17B01287CEDA22AA5FC3E6617C5B2A1 /* Pods-lab_03 */,
+				E993665535EBC5846D4405926127E393 /* SwiftyStats */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2AA25C228ADD645E9DE24BF5FFF9938F /* Pods */,
+				A2AE8C75421AEFD507A93889C5BC4641 /* Products */,
+				066032A970DD0751A58508849E3557C8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		187C8276AD476E9DA46406A34915B2CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883DE1C194447AAA901FDE4D71CA8E10 /* Pods-lab_03-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2908AC3EC6A82CFBC26BD40CD9DABB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4AA87FA68A064C0B2DEC880AEAA088 /* SwiftyStats-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D1DFC6CAA8A7A2177FA8E2FD5BE4C53 /* Pods-lab_03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF518AC2DCA9B129FBC5681A710B80C /* Build configuration list for PBXNativeTarget "Pods-lab_03" */;
+			buildPhases = (
+				187C8276AD476E9DA46406A34915B2CA /* Headers */,
+				A8D7F277BB89E712D7246DEA75DF41E6 /* Sources */,
+				9C68CFDEDEDAC19FE088E8AAE29AB2D5 /* Frameworks */,
+				DF5B4ADB5B7EFB042C51F9A3D466FD83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD7957101684C9228C273B9D106C4AE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-lab_03";
+			productName = Pods_lab_03;
+			productReference = E17B01287CEDA22AA5FC3E6617C5B2A1 /* Pods-lab_03 */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CE36328AFA9F66F769E28DCDFF4B81E /* SwiftyStats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8A999F1475B02EAE08E4FF3137C2C7 /* Build configuration list for PBXNativeTarget "SwiftyStats" */;
+			buildPhases = (
+				A2908AC3EC6A82CFBC26BD40CD9DABB2 /* Headers */,
+				E452776657EEF3DCA30D28F6AD99FE58 /* Sources */,
+				AAB5F7B3B2CE9711F129BFC02A7D0ECC /* Frameworks */,
+				B7075E8F61505558B6F8E5EC0ED277EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyStats;
+			productName = SwiftyStats;
+			productReference = E993665535EBC5846D4405926127E393 /* SwiftyStats */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A2AE8C75421AEFD507A93889C5BC4641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D1DFC6CAA8A7A2177FA8E2FD5BE4C53 /* Pods-lab_03 */,
+				6CE36328AFA9F66F769E28DCDFF4B81E /* SwiftyStats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7075E8F61505558B6F8E5EC0ED277EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5B4ADB5B7EFB042C51F9A3D466FD83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8D7F277BB89E712D7246DEA75DF41E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83355277373CB2CD0A2D66D33DCD2FF /* Pods-lab_03-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E452776657EEF3DCA30D28F6AD99FE58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA95217B2D51778048B1E025358BEE8 /* Airy.swift in Sources */,
+				072BACE4720D5D88B02B8B1F0ED3592F /* Airy_Constants.swift in Sources */,
+				41A13F3EDCB9A79806BEF4315ECC83BE /* Alg_838.swift in Sources */,
+				9768DBB579015A60BAE89AC6F6179EDB /* Array-Extension.swift in Sources */,
+				5E10AC07ADC1466B9714D9967F523013 /* Chebyshev.swift in Sources */,
+				4FEC25C503CE6A39685B9630B32C1EC0 /* CodableFloat80.swift in Sources */,
+				7B602907CB0F83AAFB5AEF5D7F7FD05C /* FP-Extension.swift in Sources */,
+				AAA621213C6E572558D4DF281658562D /* Hypergeo.swift in Sources */,
+				77B04ACA837BF86FF1BD2723A95AE951 /* HypergeometricPFQ.swift in Sources */,
+				27B8583305C55ED6504FFBA96D37C74B /* Integrator.swift in Sources */,
+				47E9924E982DA2D3234BC63302BB338E /* Namespaces.swift in Sources */,
+				379ED6E36613463454A3ED44EF503A27 /* Polyeval.swift in Sources */,
+				6882638F6D7226119344628D701B7CC0 /* ProbDist-Beta.swift in Sources */,
+				AC9C16C85B9B0529AAF04B6B36DFCB9A /* ProbDist-Binomial.swift in Sources */,
+				B23EE82B423113C5C2F3224632458B7B /* ProbDist-Cauchy.swift in Sources */,
+				72C5409D1F483E5F871F63C188C58077 /* ProbDist-ChiSquare.swift in Sources */,
+				7E47AFF85FD7B2C462E547D85C8577A0 /* ProbDist-Erlang.swift in Sources */,
+				079A17B7BB29242A978721DDE43C9FC1 /* ProbDist-Exponential.swift in Sources */,
+				B1EB531FAD200BEAF87D3A69C3883695 /* ProbDist-ExtremValue.swift in Sources */,
+				A9643AC02B5C377C2C03776C24071E03 /* ProbDist-FRatio.swift in Sources */,
+				5EFE8317DD98EE7E2547B324C4961142 /* ProbDist-Gamma.swift in Sources */,
+				4846CF00E105A400CDB7C5BFE5EAAAC2 /* ProbDist-Gaussian.swift in Sources */,
+				82F678C8A90C69AAC8D50470CB8DFCFA /* ProbDist-Laplace.swift in Sources */,
+				8C7B5815BD9571506FF7AE3FD6C89C5C /* ProbDist-Logistic.swift in Sources */,
+				771DDEC3124B70C7CD78692E9C43F048 /* ProbDist-LogNormal.swift in Sources */,
+				0A4EC9D81C4B0D61A77B6F372475D045 /* ProbDist-NoncentralT.swift in Sources */,
+				112D6B78EB007A305446D41D381BB281 /* ProbDist-Pareto.swift in Sources */,
+				C44E530E5D8C8B05806DB383095B4AC2 /* ProbDist-Poisson.swift in Sources */,
+				F1076731917E836524B38F2C517123F3 /* ProbDist-RayleighDist.swift in Sources */,
+				33A3682BE40983750A248D51DF74DB7F /* ProbDist-StudentT.swift in Sources */,
+				6986B819C7B1C2F9AE2FF4031DFD3ED3 /* ProbDist-Triangular.swift in Sources */,
+				8E304C9799E48E3380FCD8F228CE2500 /* ProbDist-Uniform.swift in Sources */,
+				24147A86F790383EB711E1097DD209A1 /* ProbDist-vMises-Circular.swift in Sources */,
+				83CFCF02E2DDFAB861C915F8B38495BD /* ProbDist-Wald_InverseNormal.swift in Sources */,
+				F729C1F3859E09671693034C28460B1F /* ProbDist-Weibull.swift in Sources */,
+				B8D604B8C2F46687E70A016EE0A6AB1F /* r_derived_macros.swift in Sources */,
+				32AC506EC22D94E6945027E52093320C /* SSComplex.swift in Sources */,
+				8B3237AE1CFEA228F0A0694117DEEF15 /* SSComplexMath.swift in Sources */,
+				AA4B48D14284E4E21D80A1ECCEA995A0 /* SSConstants.swift in Sources */,
+				7247E42B5386396E9C881887A74498F6 /* SSContFrac.swift in Sources */,
+				0F2958EA83FDC52D807E9276AF4C4275 /* SSCrosstab.swift in Sources */,
+				1CCBAB0D0B8C784944DA6512242D5E64 /* SSDataFrame.swift in Sources */,
+				1EB86A738CA9758B54D09E1B28553835 /* SSDataGroupSorter.swift in Sources */,
+				D45C6AF277E9819E9CBCB5E9A4E9993C /* SSDeprecated.swift in Sources */,
+				EAE309906FDC359C608EDC345AC5666D /* SSExamine.swift in Sources */,
+				DF86D52E32DE7A1686E0C06AE77BE2E5 /* SSExamine-FileManagement.swift in Sources */,
+				5A9EF7ECC8527A5656D1267221A469C7 /* SSExamine-Sn_Qn.swift in Sources */,
+				4CFD84CDFD56E8F621B9AFA27722BFCB /* SSExamine-Stats.swift in Sources */,
+				3C87F4FC4E7293C501A3C6DA934E602D /* SSFrequencyTables.swift in Sources */,
+				2DA1559A936C52C466F2D8C800FEC4CA /* SSHypothesisTesting-Autocorrelation.swift in Sources */,
+				4A29A4B09CE433114E9B4CA9941C4276 /* SSHypothesisTesting-NPAR.swift in Sources */,
+				62B7C975B1AE4D744B4636F3214E5D33 /* SSHypothesisTesting-Outliers.swift in Sources */,
+				581DFD1D21E3DECE82618515D9F62E4F /* SSHypothesisTesting-Randomness.swift in Sources */,
+				B797E9AA92BFAC97258A252237DDFDF4 /* SSHypothesisTesting-TTests.swift in Sources */,
+				3A7CF3C187BC8AB45033923A5E27D544 /* SSHypothesisTesting-Variances.swift in Sources */,
+				4AD35985E42727BB4F3DC354122C3BC3 /* SSLogging.swift in Sources */,
+				AA8A13C901AF7E4C0F4A63ADF6D8095F /* SSMath-GenericFP.swift in Sources */,
+				9BB470095B53E9333DAC0AD2D6BADF74 /* SSProtocols.swift in Sources */,
+				7AB164082611E554AE0C111F87D0ACA2 /* SSSF-BesselI.swift in Sources */,
+				65B7BEEBEEEF72D29559CC4B8C6CB2A1 /* SSSF-BesselJ.swift in Sources */,
+				04641BF3CA719D030462C272B069C259 /* SSSF-Gamma-Beta.swift in Sources */,
+				376F2EDBB177CE9939C4277EFEC49813 /* SSSF-Incgam-Gil_Temme_.swift in Sources */,
+				0FFBE3547110FB89197B3C46633ED68A /* SSSF-MarcumQ.swift in Sources */,
+				A5E8BA2A3EA2789DE333DAA24EED8020 /* SSSFBetaRegCF.swift in Sources */,
+				A82AD582A73A7B7569D6381299DEB3E3 /* SSSFGammaQCF.swift in Sources */,
+				ED5E9BC4B2653B9320DD14512B4AC7C9 /* SSSHermiteH.swift in Sources */,
+				AA0C909EEB11A5B7D293DD0371F7000B /* SSSimard-KSProb.swift in Sources */,
+				27452DF6EA0F09CEA864FC6DA6211ACB /* SSSpecialFunctions.swift in Sources */,
+				E78C62E65BF4145F16B997949F9949F4 /* SSSwiftyStatsError.swift in Sources */,
+				28DEB812B4D77495CAD36C71297BEE57 /* SSTukey.swift in Sources */,
+				0BE0331516D2855CB3FC93F93A86EAD6 /* SSUtils.swift in Sources */,
+				8842BBD36D0493EFAC5E8107EA015FA5 /* String-Extension-Hash.swift in Sources */,
+				056CFFB3CCDE71FE93C2C1AB2B6190A8 /* SwiftyStats-dummy.m in Sources */,
+				ED16F64D2FC64C96F56FD07ABFA1C541 /* SwiftyStats-EnumsStructs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD7957101684C9228C273B9D106C4AE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyStats;
+			target = 6CE36328AFA9F66F769E28DCDFF4B81E /* SwiftyStats */;
+			targetProxy = CE16B1DD99415D3F04D1D6B38FB1F2DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25B26FE4F718587BA5486C9AC1EE5BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870DBC17C104D4CB82296127CFF5BD5B /* Pods-lab_03.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-lab_03/Pods-lab_03-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lab_03/Pods-lab_03.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3DF8D3878E416F970CB6E527E9A3DE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C90ABA98189E52119E03D928DFE8CC6 /* Pods-lab_03.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-lab_03/Pods-lab_03-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lab_03/Pods-lab_03.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D16DA11F02C8B4843BCDB2D052A86AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F1D822B79D5189A6BCE6CECBD0A898 /* SwiftyStats.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStats/SwiftyStats-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyStats/SwiftyStats-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyStats/SwiftyStats.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyStats;
+				PRODUCT_NAME = SwiftyStats;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D953844FD15013664B437AC0887F9188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A0800EA2646215D27708584BD7C4AB /* SwiftyStats.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStats/SwiftyStats-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyStats/SwiftyStats-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyStats/SwiftyStats.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyStats;
+				PRODUCT_NAME = SwiftyStats;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D8A999F1475B02EAE08E4FF3137C2C7 /* Build configuration list for PBXNativeTarget "SwiftyStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D953844FD15013664B437AC0887F9188 /* Debug */,
+				D16DA11F02C8B4843BCDB2D052A86AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF518AC2DCA9B129FBC5681A710B80C /* Build configuration list for PBXNativeTarget "Pods-lab_03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B26FE4F718587BA5486C9AC1EE5BEF /* Debug */,
+				3DF8D3878E416F970CB6E527E9A3DE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
