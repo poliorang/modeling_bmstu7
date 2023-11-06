@@ -22,7 +22,7 @@ class Helpers {
     
     func read_from_file(filename: String) -> String {
         if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
-            
+            print(dir)
             let path = dir.appendingPathComponent(filename)
             
             do {

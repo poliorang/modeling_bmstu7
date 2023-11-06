@@ -136,6 +136,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var calculateButton: UIButton!
     
     let alorithmMethod = AlgorithmMethod()
+    let tableMethod = TableMethod()
+    let criteria = Criteria()
     let helpers = Helpers()
     
     override func viewDidLoad() {
@@ -245,16 +247,36 @@ class ViewController: UIViewController {
     }
     
     @IBAction func generate(_ sender: Any) {
-        alorithmMethod.generateAlgorithmMethod(start: 0,   end: 10,   filename: "alg1.txt")
-        alorithmMethod.generateAlgorithmMethod(start: 10,  end: 100,  filename: "alg10.txt")
-        alorithmMethod.generateAlgorithmMethod(start: 100, end: 1000, filename: "alg100.txt")
+        alorithmMethod.generateAlgorithmMethod(filename: "alg1.txt", start: 0,   end: 10)
+        alorithmMethod.generateAlgorithmMethod(filename: "alg10.txt", start: 10,  end: 100)
+        alorithmMethod.generateAlgorithmMethod(filename: "alg100.txt", start: 100, end: 1000)
         
-        let answer1 = round(alorithmMethod.getCriteria(filename: "alg1.txt",   elMin: 0,   elMax: 10) * 1000) / 1000
-        let answer2 = round(alorithmMethod.getCriteria(filename: "alg10.txt",   elMin: 10,   elMax: 100) * 1000) / 1000
-        let answer3 = round(alorithmMethod.getCriteria(filename: "alg100.txt",   elMin: 100,   elMax: 1000) * 1000) / 1000
+        let answer1 = round(criteria.getCriteria(filename: "alg1.txt",   elMin: 0,   elMax: 10) * 1000) / 1000
+        let answer2 = round(criteria.getCriteria(filename: "alg10.txt",   elMin: 10,   elMax: 100) * 1000) / 1000
+        let answer3 = round(criteria.getCriteria(filename: "alg100.txt",   elMin: 100,   elMax: 1000) * 1000) / 1000
         answer1_1.text = "\(answer1)"
         answer1_2.text = "\(answer2)"
         answer1_3.text = "\(answer3)"
+        
+        alorithmMethod.generateAlgorithmMethod(filename: "alg1.txt", start: 0,   end: 10)
+        alorithmMethod.generateAlgorithmMethod(filename: "alg10.txt", start: 10,  end: 100)
+        alorithmMethod.generateAlgorithmMethod(filename: "alg100.txt", start: 100, end: 1000)
+        
+        let answer4 = round(criteria.getCriteria(filename: "alg1.txt",   elMin: 0,   elMax: 10) * 1000) / 1000
+        let answer5 = round(criteria.getCriteria(filename: "alg10.txt",   elMin: 10,   elMax: 100) * 1000) / 1000
+        let answer6 = round(criteria.getCriteria(filename: "alg100.txt",   elMin: 100,   elMax: 1000) * 1000) / 1000
+        
+        
+        tableMethod.generateTableMethod(filename: "table1.txt", start: 0, end: 10)
+        tableMethod.generateTableMethod(filename: "table10.txt", start: 10, end: 100)
+        tableMethod.generateTableMethod(filename: "table100.txt", start: 100, end: 1000)
+                                        
+//        let answer4 = round(criteria.getCriteria(filename: "table1.txt",   elMin: 0,   elMax: 10) * 1000) / 1000
+//        let answer5 = round(criteria.getCriteria(filename: "table10.txt",   elMin: 10,   elMax: 100) * 1000) / 1000
+//        let answer6 = round(criteria.getCriteria(filename: "table100.txt",   elMin: 100,   elMax: 1000) * 1000) / 1000
+        answer2_1.text = "\(answer4)"
+        answer2_2.text = "\(answer5)"
+        answer2_3.text = "\(answer6)"
         
         fillTextFileds()
     }
@@ -292,6 +314,40 @@ class ViewController: UIViewController {
         _1x3x8.text = "\(alorithmMethod.nums_1000_1[7])"
         _1x3x9.text = "\(alorithmMethod.nums_1000_1[8])"
         _1x3x10.text = "\(alorithmMethod.nums_1000_1[9])"
+        
+        
+        _2x1x1.text = "\(tableMethod.nums_10_1[0])"
+        _2x1x2.text = "\(tableMethod.nums_10_1[1])"
+        _2x1x3.text = "\(tableMethod.nums_10_1[2])"
+        _2x1x4.text = "\(tableMethod.nums_10_1[3])"
+        _2x1x5.text = "\(tableMethod.nums_10_1[4])"
+        _2x1x6.text = "\(tableMethod.nums_10_1[5])"
+        _2x1x7.text = "\(tableMethod.nums_10_1[6])"
+        _2x1x8.text = "\(tableMethod.nums_10_1[7])"
+        _2x1x9.text = "\(tableMethod.nums_10_1[8])"
+        _2x1x10.text = "\(tableMethod.nums_10_1[9])"
+        
+        _2x2x1.text = "\(tableMethod.nums_100_1[0])"
+        _2x2x2.text = "\(tableMethod.nums_100_1[1])"
+        _2x2x3.text = "\(tableMethod.nums_100_1[2])"
+        _2x2x4.text = "\(tableMethod.nums_100_1[3])"
+        _2x2x5.text = "\(tableMethod.nums_100_1[4])"
+        _2x2x6.text = "\(tableMethod.nums_100_1[5])"
+        _2x2x7.text = "\(tableMethod.nums_100_1[6])"
+        _2x2x8.text = "\(tableMethod.nums_100_1[7])"
+        _2x2x9.text = "\(tableMethod.nums_100_1[8])"
+        _2x2x10.text = "\(tableMethod.nums_100_1[9])"
+        
+        _2x3x1.text = "\(tableMethod.nums_1000_1[0])"
+        _2x3x2.text = "\(tableMethod.nums_1000_1[1])"
+        _2x3x3.text = "\(tableMethod.nums_1000_1[2])"
+        _2x3x4.text = "\(tableMethod.nums_1000_1[3])"
+        _2x3x5.text = "\(tableMethod.nums_1000_1[4])"
+        _2x3x6.text = "\(tableMethod.nums_1000_1[5])"
+        _2x3x7.text = "\(tableMethod.nums_1000_1[6])"
+        _2x3x8.text = "\(tableMethod.nums_1000_1[7])"
+        _2x3x9.text = "\(tableMethod.nums_1000_1[8])"
+        _2x3x10.text = "\(tableMethod.nums_1000_1[9])"
     }
     
     @IBAction func calculate(_ sender: Any) {
@@ -326,7 +382,7 @@ class ViewController: UIViewController {
         }
         
         helpers.write_to_file(text: text.joined(separator: "\n"), filename: "manual.txt")
-        let answer = round(alorithmMethod.getCriteria(filename: "manual.txt", elMin: elMin, elMax: elMax) * 1000) / 1000
+        let answer = round(criteria.getCriteria(filename: "manual.txt", elMin: elMin, elMax: elMax) * 1000) / 1000
         answerTextField.text = "\(answer)"
     }
 }

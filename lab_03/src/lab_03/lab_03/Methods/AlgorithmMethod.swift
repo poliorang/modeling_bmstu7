@@ -31,41 +31,17 @@ class AlgorithmMethod {
     var nums_100_1  = [Int]()
     var nums_1000_1 = [Int]()
     
-    func getCriteria(filename: String, elMin: Int, elMax: Int) -> Double {
-        let array = helpers.read_from_file(filename: filename).components(separatedBy: "\n")
-        print("aaa", array)
-        var nums = [Int]()
-        for el in array { nums.append(Int(el)!) }
-        var y = 0.0
-        let p = 1.0 / Double(elMax - elMin)
-        
-        for i in elMin..<elMax {
-            let count = nums.filter{ $0 == i }.count
-            y += pow(Double(count), 2) / p
-        }
-        
-        y = y / Double(nums.count) - Double(nums.count)
-        
-        get_10_nums(nums: nums)
-        
-        do {
-            let res = try cdfChiSquareDist(chi: y, degreesOfFreedom: Double(elMax - elMin - 1))
-            return res
-        } catch {
-            return 0.0
-        }
-        
-        return 0.0
-    }
-    
-    func generateAlgorithmMethod(start: Int, end: Int, filename: String) {
+    func generateAlgorithmMethod(filename: String, start: Int, end: Int) {
         var arr = [String]()
+        var nums = [Int]()
         let algorithmMethod = CongruentMethod(seed: Int.random(in: 0...100));
 
         for _ in 0..<1000 {
             let num = algorithmMethod.getNum(start: start, end: end)
+            nums.append(num)
             arr.append("\(num)")
         }
+        get_10_nums(nums: nums)
 
         helpers.write_to_file(text: arr.joined(separator: "\n"), filename: filename)
     }

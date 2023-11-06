@@ -16,6 +16,7 @@
 		4AF038BF2AF6BC3000DFB888 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF038BE2AF6BC3000DFB888 /* ViewController.swift */; };
 		4AF038C22AF6BC7100DFB888 /* TableMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF038C02AF6BC7100DFB888 /* TableMethod.swift */; };
 		4AF038C32AF6BC7100DFB888 /* AlgorithmMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF038C12AF6BC7100DFB888 /* AlgorithmMethod.swift */; };
+		4AF038C62AF90BA400DFB888 /* Criteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF038C52AF90BA400DFB888 /* Criteria.swift */; };
 		E26D10EC59B93D637B9B06C2 /* Pods_lab_03.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1AE60FB0AF12F7BDE967D9 /* Pods_lab_03.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		4AF038BE2AF6BC3000DFB888 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4AF038C02AF6BC7100DFB888 /* TableMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableMethod.swift; sourceTree = "<group>"; };
 		4AF038C12AF6BC7100DFB888 /* AlgorithmMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmMethod.swift; sourceTree = "<group>"; };
+		4AF038C52AF90BA400DFB888 /* Criteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Criteria.swift; sourceTree = "<group>"; };
 		4C1AE60FB0AF12F7BDE967D9 /* Pods_lab_03.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lab_03.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B53F2DEC0E39EA1C0AD21D5 /* Pods-lab_03.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lab_03.debug.xcconfig"; path = "Target Support Files/Pods-lab_03/Pods-lab_03.debug.xcconfig"; sourceTree = "<group>"; };
 		8930A93B5B7645F7F1140820 /* Pods-lab_03.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lab_03.release.xcconfig"; path = "Target Support Files/Pods-lab_03/Pods-lab_03.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			children = (
 				4AF038C12AF6BC7100DFB888 /* AlgorithmMethod.swift */,
 				4AF038C02AF6BC7100DFB888 /* TableMethod.swift */,
+				4AF038C52AF90BA400DFB888 /* Criteria.swift */,
 			);
 			path = Methods;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				4AF038C32AF6BC7100DFB888 /* AlgorithmMethod.swift in Sources */,
 				4AF038B92AF6B8DC00DFB888 /* Helpers.swift in Sources */,
 				4AF038A12AF29D8800DFB888 /* AppDelegate.swift in Sources */,
+				4AF038C62AF90BA400DFB888 /* Criteria.swift in Sources */,
 				4AF038BF2AF6BC3000DFB888 /* ViewController.swift in Sources */,
 				4AF038A32AF29D8800DFB888 /* SceneDelegate.swift in Sources */,
 				4AF038C22AF6BC7100DFB888 /* TableMethod.swift in Sources */,
