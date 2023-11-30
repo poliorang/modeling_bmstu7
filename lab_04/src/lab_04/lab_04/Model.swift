@@ -1,0 +1,114 @@
+//
+//  Devices.swift
+//  lab_04
+//
+//  Created by Polina Egorova on 26.11.2023.
+//
+
+import Foundation
+
+func eventModel(_ generator: EvenDistribution, _ processor: NormalDistribution, _ totalTasks: Int = 0, _ repeat_percentage: Int = 0) -> Int {
+    var processedTasks = 0
+    var curQueueLen = 0
+    var maxQueueLen = 0
+    var events: [(Double, String)] = [(generator.generate(), "g")]
+    var free = true
+    var processFlag = false
+    
+    while processedTasks < totalTasks {
+        let event = events.removeFirst()
+        if event.1 == "g" {
+            curQueueLen += 1
+            if curQueueLen > maxQueueLen {
+                maxQueueLen = curQueueLen
+            }
+            addEvent(&events, (event.0 + generator.generate(), "g"))
+            
+            if free {
+                processFlag = true
+            }
+        } else if event.1 == "p" {
+            processedTasks += 1
+            
+            if Int.random(in: 1...100) <= repeat_percentage {
+                curQueueLen += 1
+            }
+            processFlag = true
+        }
+        
+        if processFlag {
+            if curQueueLen > 0 {
+                curQueueLen -= 1
+                addEvent(&events, (event.0 + processor.generate(), "p"))
+                free = false
+            } else {
+                free = true
+            }
+            processFlag = false
+        }
+    }
+    
+    return maxQueueLen
+}
+
+func addEvent(_ events: inout [(Double, String)], _ newEvent: (Double, String)) {
+    var i = 0
+    
+    while i < events.count && events[i].0 < newEvent.0 {
+        i += 1
+    }
+    
+    0 < i && i < events.count ? events.insert(newEvent, at: i - 1) : events.insert(newEvent, at: i)
+}
+
+func stepModel(_ generator: EvenDistribution, _ processor: NormalDistribution, _ totalTasks: Int, _ repeat_percentage: Int, _ step: Double) -> Int {
+    var processedTasks = 0
+    var tCurr: Double = step
+    var tGen = generator.generate()
+    var tGenPrev: Double = 0
+    var tProc: Double = 0
+    var curQueueLen = 0
+    var maxQueueLen = 0
+    var free = true
+    
+    while processedTasks < totalTasks {
+        if tCurr > tGen {
+            curQueueLen += 1
+            
+            if curQueueLen > maxQueueLen {
+                maxQueueLen = curQueueLen
+            }
+            
+            tGenPrev = tGen
+            tGen += generator.generate()
+        }
+            
+        if tCurr > tProc {
+            if curQueueLen > 0 {
+                let wasFree = free
+                if free {
+                    free = false
+                } else {
+                    processedTasks += 1
+                    if Int.random(in: 1...100) <= repeat_percentage {
+                        curQueueLen += 1
+                    }
+                }
+                
+                curQueueLen -= 1
+                
+                if wasFree {
+                    tProc = tGenPrev + processor.generate()
+                } else {
+                    tProc += processor.generate()
+                }
+                
+            } else {
+                free = true
+            }
+        }
+        tCurr += step
+    }
+            
+    return maxQueueLen
+}
